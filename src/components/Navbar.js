@@ -1,15 +1,42 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import css from '../style/Navbar.module.css'
+import '../style/Navbar.css'
+import {gsap} from 'gsap'
+
 
 const Navbar = () => {
+
+  const navbar = useRef();
+  const q = gsap.utils.selector(navbar);
+  const [pathname, setPathname] = useState(null);
+  const  [rerender, setRerender] = useState(false);
+  useEffect(()=>{
+    setPathname(window.location.pathname);
+    if(pathname === "/resume"){
+      gsap.to(q(".itemtext"),{css:{color:'black',
+                                    }})
+    }
+    else{
+      gsap.to(q(".itemtext"),{css:{color:'white'}})
+    }   
+      
+  },[rerender,pathname])
+
+  // if(pathname === '/resume'){
+  //   navbar.current.style.backgroundColor = "blue";
+  // }
+
+  
+
   return (
-    <div className= {css.maincontainer}>
-        <div className={css.heading}>Amith</div>
-        <div className={css.listitems}>
-            <div className={css.item}><NavLink className={css.itemtext} to="/amithajith">{"<Home/>"}</NavLink></div>
-            <div className={css.item}><NavLink className={css.itemtext} to="/resume">{"<Resume/>"}</NavLink></div>
-            <div className={css.item}><NavLink className={css.itemtext} to="/contact">{"<Contact/>"}</NavLink></div>
+    <div className= "maincontainer-navbar">
+        {/* <div className={.heading}>Amith</div> */}
+        <div className="wrapper-navbar">
+        <div className="listitems-navbar" ref={navbar}>
+            <div className="item"><NavLink className={pathname === '/amithajith' ? "itemtext active" : "itemtext" } onClick={()=>setRerender(!rerender)}   to="/amithajith">{"Home"}</NavLink></div>
+            <div className="item"><NavLink className={pathname === '/resume' ?"itemtext active" : "itemtext" } onClick={()=>setRerender(!rerender)} to="/resume">{"Resume"}</NavLink></div>
+            <div className="item"><NavLink className={pathname === '/contact' ? "itemtext active" : "itemtext" } onClick={()=>setRerender(!rerender)} to="/contact">{"Contact"}</NavLink></div>
+        </div>
         </div>
     </div>
   )
