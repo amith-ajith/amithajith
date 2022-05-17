@@ -8,25 +8,21 @@ const Home = () => {
   const q = gsap.utils.selector(boxRef);
 
   useEffect(()=>{
-    gsap.to(q(".box"),{
-      rotation : "360"
-
-    })
+    gsap.fromTo(boxRef.current,{
+      y : -100,opacity:0
+    },{y: -50, opacity:1,duration: 2})
   },[])
 
 
   return (
     <div className="maincontainer-home">
       <div className="subcontainer first" ref={boxRef} >
-        <div className="box" > 
-        </div>
-        <div className="box"> 
-        </div>
+       
         Hi I'm Amith
       </div>
-      <div className="subcontainer">
+      {/* <div className="subcontainer">
         Hi I'm Amith
-      </div>
+      </div> */}
     </div>
   )
 }
