@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/amithajith/static/css/main.11601b94.css",
-    "main.js": "/amithajith/static/js/main.5ce9b064.js",
+    "main.css": "/amithajith/static/css/main.d05b5d96.css",
+    "main.js": "/amithajith/static/js/main.5c93c3b0.js",
+    "static/media/pablita-516.gif": "/amithajith/static/media/pablita-516.09922d19315726fe4f6b.gif",
+    "static/media/backg.jpg": "/amithajith/static/media/backg.baaa862b0333be57000a.jpg",
     "static/media/cyborg-robot-face.png": "/amithajith/static/media/cyborg-robot-face.a399b3e19aa05a17940a.png",
     "static/media/robo-hand-right.png": "/amithajith/static/media/robo-hand-right.cd8bd6ce230d5e6c55cf.png",
     "static/media/cyborg-light-bulb-5.png": "/amithajith/static/media/cyborg-light-bulb-5.83445c444e1f1eb35e98.png",
     "static/media/robo-hand-left.png": "/amithajith/static/media/robo-hand-left.60b28ee7f6a87c66dfda.png",
     "index.html": "/amithajith/index.html",
-    "main.11601b94.css.map": "/amithajith/static/css/main.11601b94.css.map",
-    "main.5ce9b064.js.map": "/amithajith/static/js/main.5ce9b064.js.map"
+    "main.d05b5d96.css.map": "/amithajith/static/css/main.d05b5d96.css.map",
+    "main.5c93c3b0.js.map": "/amithajith/static/js/main.5c93c3b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.11601b94.css",
-    "static/js/main.5ce9b064.js"
+    "static/css/main.d05b5d96.css",
+    "static/js/main.5c93c3b0.js"
   ]
 }
