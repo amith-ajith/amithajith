@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/amithajith/static/css/main.d05b5d96.css",
-    "main.js": "/amithajith/static/js/main.5c93c3b0.js",
-    "static/media/pablita-516.gif": "/amithajith/static/media/pablita-516.09922d19315726fe4f6b.gif",
+    "main.css": "/amithajith/static/css/main.37ff10ab.css",
+    "main.js": "/amithajith/static/js/main.d325520b.js",
     "static/media/backg.jpg": "/amithajith/static/media/backg.baaa862b0333be57000a.jpg",
-    "static/media/cyborg-robot-face.png": "/amithajith/static/media/cyborg-robot-face.a399b3e19aa05a17940a.png",
-    "static/media/robo-hand-right.png": "/amithajith/static/media/robo-hand-right.cd8bd6ce230d5e6c55cf.png",
-    "static/media/cyborg-light-bulb-5.png": "/amithajith/static/media/cyborg-light-bulb-5.83445c444e1f1eb35e98.png",
-    "static/media/robo-hand-left.png": "/amithajith/static/media/robo-hand-left.60b28ee7f6a87c66dfda.png",
+    "static/media/flask-logo.png": "/amithajith/static/media/flask-logo.1dfb0a77f9428d1882eb.png",
+    "static/media/gcp.png": "/amithajith/static/media/gcp.abb67d90cebbdaa138d3.png",
+    "static/media/react.png": "/amithajith/static/media/react.f153eb9f28437192c6a0.png",
+    "static/media/python.png": "/amithajith/static/media/python.9431343c453e999f63a7.png",
+    "static/media/Cpp.png": "/amithajith/static/media/Cpp.53bb9a47adf217ee6900.png",
+    "static/media/webdev.svg": "/amithajith/static/media/webdev.53b57c3d2417264fab4d7bf9c5ff7b94.svg",
+    "static/media/tensorflow.png": "/amithajith/static/media/tensorflow.585cd07c225d86bf09b8.png",
+    "static/media/scikit.png": "/amithajith/static/media/scikit.badd957ac15b0c4bf695.png",
+    "static/media/greensock.svg": "/amithajith/static/media/greensock.9abb26fb1dd1c5f64e0349e22ed1f3ca.svg",
     "index.html": "/amithajith/index.html",
-    "main.d05b5d96.css.map": "/amithajith/static/css/main.d05b5d96.css.map",
-    "main.5c93c3b0.js.map": "/amithajith/static/js/main.5c93c3b0.js.map"
+    "main.37ff10ab.css.map": "/amithajith/static/css/main.37ff10ab.css.map",
+    "main.d325520b.js.map": "/amithajith/static/js/main.d325520b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d05b5d96.css",
-    "static/js/main.5c93c3b0.js"
+    "static/css/main.37ff10ab.css",
+    "static/js/main.d325520b.js"
   ]
 }
