@@ -10,5 +10,10 @@
 
 body{
   color: white;
-  background-color: rgb(0, 0, 0);
+  /* background-color: #998CEB; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  
 }
+

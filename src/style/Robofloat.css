@@ -1,0 +1,19 @@
+.backgrnd .imagewrapper{
+
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* position: relative; */
+    
+}
+
+.backgrnd .imagewrapper .bulb{
+    margin-bottom: 10px;
+}
+.backgrnd .imagewrapper .robobody .hand{    
+    margin : 10px;
+
+}

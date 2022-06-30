@@ -10,27 +10,23 @@ const Navbar = () => {
   const q = gsap.utils.selector(navbar);
   const [pathname, setPathname] = useState(null);
   const  [rerender, setRerender] = useState(false);
-  useEffect(()=>{
-    setPathname(window.location.pathname);
-    if(pathname === "/resume"){
-      gsap.to(q(".itemtext"),{css:{color:'black',
-                                    }})
-    }
-    else{
-      gsap.to(q(".itemtext"),{css:{color:'white'}})
-    }   
+  // useEffect(()=>{
+  //   setPathname(window.location.pathname);
+  //   if(pathname === "/resume"){
+  //     gsap.to(q(".itemtext"),{css:{color:'black',
+  //                                   }})
+  //   }
+  //   else{
+  //     gsap.to(q(".itemtext"),{css:{color:'white'}})
+  //   }   
       
-  },[rerender,pathname])
+  // },[rerender,pathname])
 
-  // if(pathname === '/resume'){
-  //   navbar.current.style.backgroundColor = "blue";
-  // }
 
   
 
   return (
     <div className= "maincontainer-navbar">
-        {/* <div className={.heading}>Amith</div> */}
         <div className="wrapper-navbar">
         <div className="listitems-navbar" ref={navbar}>
             <div className="item"><NavLink className={pathname === '/amithajith' ? "itemtext active" : "itemtext" } onClick={()=>setRerender(!rerender)}   to="/amithajith">{"Home"}</NavLink></div>

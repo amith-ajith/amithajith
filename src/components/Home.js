@@ -1,30 +1,47 @@
-import React, { useEffect, useRef } from 'react'
-import css from "../style/Home.css"
+import React, { useRef, useMemo } from 'react'
+import "../style/Home.css"
 import {gsap} from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import ContainerOne from './ContainerOne';
+import ContainerTwo from './ContainerTwo';
+import ContainerThree from './ContainerThree';
+
+
+gsap.registerPlugin(ScrollTrigger);
+
+
+
+function useSelectorVertical() {
+  const mainref = useRef();
+  const qm = useMemo(() => gsap.utils.selector(mainref), [mainref]);
+  return [qm, mainref];
+}
+
 
 const Home = () => {
 
-  const boxRef = useRef();
-  const q = gsap.utils.selector(boxRef);
-
-  useEffect(()=>{
-    gsap.fromTo(boxRef.current,{
-      y : -100,opacity:0
-    },{y: -50, opacity:1,duration: 2})
-  },[])
+  const [qm, mainref] = useSelectorVertical();  
 
 
   return (
-    <div className="maincontainer-home">
-      <div className="subcontainer first" ref={boxRef} >
-       
-        Hi I'm Amith
-      </div>
-      {/* <div className="subcontainer">
-        Hi I'm Amith
-      </div> */}
+    <div className="maincontainer-home" ref={mainref}>
+     
+      <ContainerOne qm={qm} mainref={mainref}/>
+      {/* <ContainerTwo qm={qm} mainref={mainref}/> */}
+     <ContainerThree/>
+      
+    
     </div>
   )
 }
 
 export default Home
+
+
+  
+
+
+
+
+
+  

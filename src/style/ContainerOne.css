@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.container.first{
+    width: 100%;
+    height: 100vh;
+    /* background: url('../assets/backg.jpg'); */
+    /* background-size:contain; */
+    background-color: #C2DED1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+  
+    
+}
+/* 
+.container.first .backgrnd{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+} */
+
+
+.container.first .content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #7D9D9C;
+    
+    /* background-color: bisque; */
+    /* font-family: 'Koulen', cursive; */
+    /* font-family: 'Staatliches', cursive;
+    font-size: 100pt; */
+    font-weight: 600;
+    /* -webkit-text-stroke: 1px #FFAC41;  */
+}
+
+.content .head{
+    width: 100%;
+    display: flex;
+    color: #354259;
+    /* font-family: 'Staatliches', cursive; */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 80pt; 
+    justify-content: flex-start;
+}
+.content .writeup{
+    width: 100%;
+    display: flex;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25pt; 
+    justify-content: flex-start;
+}
+
+.container.first .image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+}
