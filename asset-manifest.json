@@ -1,23 +1,15 @@
 {
   "files": {
-    "main.css": "/amithajith/static/css/main.1283ce0f.css",
-    "main.js": "/amithajith/static/js/main.9632b4ec.js",
-    "static/media/flask-logo.png": "/amithajith/static/media/flask-logo.1dfb0a77f9428d1882eb.png",
-    "static/media/gcp.png": "/amithajith/static/media/gcp.abb67d90cebbdaa138d3.png",
-    "static/media/react.png": "/amithajith/static/media/react.f153eb9f28437192c6a0.png",
-    "static/media/python.png": "/amithajith/static/media/python.9431343c453e999f63a7.png",
-    "static/media/Cpp.png": "/amithajith/static/media/Cpp.53bb9a47adf217ee6900.png",
-    "static/media/webdev_day.svg": "/amithajith/static/media/webdev_day.4d72dbba32efee3890cef9bcacce7aa7.svg",
-    "static/media/webdev_night.svg": "/amithajith/static/media/webdev_night.53b57c3d2417264fab4d7bf9c5ff7b94.svg",
-    "static/media/tensorflow.png": "/amithajith/static/media/tensorflow.585cd07c225d86bf09b8.png",
-    "static/media/scikit.png": "/amithajith/static/media/scikit.badd957ac15b0c4bf695.png",
-    "static/media/greensock.svg": "/amithajith/static/media/greensock.9abb26fb1dd1c5f64e0349e22ed1f3ca.svg",
+    "main.css": "/amithajith/static/css/main.bf2526c4.css",
+    "main.js": "/amithajith/static/js/main.df75e128.js",
+    "static/media/handcoding.png": "/amithajith/static/media/handcoding.17acf7ff3d55dad452ab.png",
+    "static/media/webdev_night.svg": "/amithajith/static/media/webdev_night.c54f20cdad4678ad06a60b1813ba1c0a.svg",
     "index.html": "/amithajith/index.html",
-    "main.1283ce0f.css.map": "/amithajith/static/css/main.1283ce0f.css.map",
-    "main.9632b4ec.js.map": "/amithajith/static/js/main.9632b4ec.js.map"
+    "main.bf2526c4.css.map": "/amithajith/static/css/main.bf2526c4.css.map",
+    "main.df75e128.js.map": "/amithajith/static/js/main.df75e128.js.map"
   },
   "entrypoints": [
-    "static/css/main.1283ce0f.css",
-    "static/js/main.9632b4ec.js"
+    "static/css/main.bf2526c4.css",
+    "static/js/main.df75e128.js"
   ]
 }
