@@ -9,11 +9,13 @@
 }
 
 body{
-  color: white;
-  /* background-color: #998CEB; */
-  overflow-y: scroll;
+  /* color: white; */
+  visibility: hidden ;
+  /* background-color: black; */
+  /* overflow-y: scroll; */
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
   
 }
+
+
 

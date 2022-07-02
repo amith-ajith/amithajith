@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Contact from './components/Contact'
-import Home from './components/Home'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
 import Navbar from './components/Navbar'
-import ResumePage from './components/ResumePage'
+import ResumePage from './pages/ResumePage'
 
 const App = () => {
 

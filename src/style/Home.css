@@ -3,18 +3,17 @@
 
 
 .maincontainer-home{
-    height: 100vh;
-    
-    
-    
-
+    /* height: 100vh; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .container{
     height: 100vh;
     width: 100%;
-    padding: 20px;
-    background-color: #C2DED1;
+    padding: 40px;
+    background-color: #F5F0BB;
     /* background: url(../assets/backg.jpg);
     background-size: contain; */
   
