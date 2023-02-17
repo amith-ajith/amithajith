@@ -1,13 +1,9 @@
 import React from 'react'
-import gsap from 'gsap'
+import './pagetwo.css'
 
 const PageTwo = () => {
-
-  
   return (
-    <div className='page'>
-        Page 2
-      </div>
+    <div className='page two-main'>PageTwo</div>
   )
 }
 

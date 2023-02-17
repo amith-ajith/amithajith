@@ -1,0 +1,30 @@
+.one-main{
+    background-color: #18122B;
+    color: white;    
+    margin: 10px;
+    border: 2px solid #A555EC;
+    display: flex;
+    flex-direction: row;
+}
+.intro-left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro-right{
+  
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.devimg{
+    width: 100px;
+    height: 100px;
+}

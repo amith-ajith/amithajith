@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+
+.maincontainer-home{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.page{
+    display: flex;
+    height: 100vh;    
+}
+
+
+
+
